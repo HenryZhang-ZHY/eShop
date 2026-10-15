@@ -2,8 +2,8 @@ load("//bazel:eshop.bzl", "eshop_library")
 
 eshop_library(
     name = "Ordering.Domain",
-    deps = [
-        "@nuget//:MediatR",
-        "@nuget//:System.Reflection.TypeExtensions",
-    ],
+    # Entity.DomainEvents exposes MediatR's INotification, so code that uses
+    # the domain needs MediatR too.
+    exports = ["@nuget//:MediatR"],
+    deps = ["@nuget//:System.Reflection.TypeExtensions"],
 )

@@ -5,6 +5,7 @@ eshop_library(
     deps = [
         "//src/IntegrationEventLogEF",
         "//src/Ordering.Domain",
+        "@nuget//:MediatR",
         "@nuget//:Npgsql.EntityFrameworkCore.PostgreSQL",
     ],
 )
