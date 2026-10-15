@@ -8,3 +8,8 @@ test --test_output=errors
 # Bazel's built-in rules_android reads ANDROID_HOME during toolchain resolution.
 # Hide the machine's Android SDK so it can't break (or influence) .NET builds.
 common --repo_env=ANDROID_HOME=
+
+# Keep every action result, not just the latest: reverting an edit or switching
+# branches then rebuilds from cache. CI would point --remote_cache at a shared
+# cache instead, so agents, developers and CI reuse each other's work.
+common --disk_cache=~/.cache/bazel-disk
