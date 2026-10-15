@@ -4,9 +4,10 @@
     <TargetFramework>net10.0</TargetFramework>
   </PropertyGroup>
 
+  <!-- Built by Bazel and consumed as workspace packages (bazel run //:packages). -->
   <ItemGroup>
-    <ProjectReference Include="..\eShop.ServiceDefaults\eShop.ServiceDefaults.csproj" />
-    <ProjectReference Include="..\EventBusRabbitMQ\EventBusRabbitMQ.csproj" />
+    <PackageReference Include="eShop.ServiceDefaults" />
+    <PackageReference Include="EventBusRabbitMQ" />
   </ItemGroup>
 
 </Project>

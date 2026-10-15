@@ -37,17 +37,18 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EventBusRabbitMQ\EventBusRabbitMQ.csproj" />
-    <ProjectReference Include="..\IntegrationEventLogEF\IntegrationEventLogEF.csproj" />
-    <ProjectReference Include="..\eShop.ServiceDefaults\eShop.ServiceDefaults.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Content Include="Pics\*.webp" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
   <ItemGroup>
     <InternalsVisibleTo Include="Catalog.FunctionalTests" />
+  </ItemGroup>
+
+  <!-- Built by Bazel and consumed as workspace packages (bazel run //:packages). -->
+  <ItemGroup>
+    <PackageReference Include="eShop.ServiceDefaults" />
+    <PackageReference Include="EventBusRabbitMQ" />
+    <PackageReference Include="IntegrationEventLogEF" />
   </ItemGroup>
 
 </Project>

@@ -18,10 +18,11 @@
     </PackageReference>
   </ItemGroup>
 
+  <!-- Built by Bazel and consumed as workspace packages (bazel run //:packages). -->
   <ItemGroup>
-    <ProjectReference Include="..\EventBusRabbitMQ\EventBusRabbitMQ.csproj" />
-    <ProjectReference Include="..\IntegrationEventLogEF\IntegrationEventLogEF.csproj" />
-    <ProjectReference Include="..\eShop.ServiceDefaults\eShop.ServiceDefaults.csproj" />
+    <PackageReference Include="eShop.ServiceDefaults" />
+    <PackageReference Include="EventBusRabbitMQ" />
+    <PackageReference Include="IntegrationEventLogEF" />
   </ItemGroup>
 
 </Project>

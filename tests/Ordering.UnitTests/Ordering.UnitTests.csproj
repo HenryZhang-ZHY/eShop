@@ -18,8 +18,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Ordering.API\Ordering.API.csproj" />
-    <ProjectReference Include="..\..\src\Ordering.Domain\Ordering.Domain.csproj" />
-    <ProjectReference Include="..\..\src\Ordering.Infrastructure\Ordering.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <!-- Built by Bazel and consumed as workspace packages (bazel run //:packages). -->
+  <ItemGroup>
+    <PackageReference Include="Ordering.Domain" />
+    <PackageReference Include="Ordering.Infrastructure" />
   </ItemGroup>
 
 </Project>

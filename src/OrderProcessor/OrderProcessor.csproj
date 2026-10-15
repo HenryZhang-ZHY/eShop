@@ -11,10 +11,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\eShop.ServiceDefaults\eShop.ServiceDefaults.csproj" />
-    <ProjectReference Include="..\EventBusRabbitMQ\EventBusRabbitMQ.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <InternalsVisibleTo Include="Application.UnitTests" />
   </ItemGroup>
+  <!-- Built by Bazel and consumed as workspace packages (bazel run //:packages). -->
+  <ItemGroup>
+    <PackageReference Include="eShop.ServiceDefaults" />
+    <PackageReference Include="EventBusRabbitMQ" />
+  </ItemGroup>
+
 </Project>

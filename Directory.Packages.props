@@ -89,4 +89,8 @@
     <!-- Before license change -->
     <PackageVersion Include="MediatR" Version="13.1.0" />
   </ItemGroup>
+
+  <!-- Versions of the Bazel-built libraries (0.0.0-ws.<content hash>).
+       Written by `bazel run //:packages`; see BAZEL.md. -->
+  <Import Project="$(MSBuildThisFileDirectory).bazel-packages/Workspace.Packages.props" />
 </Project>

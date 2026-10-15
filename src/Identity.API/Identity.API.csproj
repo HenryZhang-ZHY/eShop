@@ -41,9 +41,6 @@
     <None Include="Views\_ViewStart.cshtml" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\eShop.ServiceDefaults\eShop.ServiceDefaults.csproj" />
-  </ItemGroup>
   
   <ItemGroup>
     <!-- Don't use this in production -->
@@ -54,4 +51,9 @@
     <Compile Include="..\Shared\MigrateDbContextExtensions.cs" Link="Extensions\MigrateDbContextExtensions.cs" />
     <Compile Include="..\Shared\ActivityExtensions.cs" Link="Extensions\ActivityExtensions.cs" />
   </ItemGroup>
+  <!-- Built by Bazel and consumed as workspace packages (bazel run //:packages). -->
+  <ItemGroup>
+    <PackageReference Include="eShop.ServiceDefaults" />
+  </ItemGroup>
+
 </Project>

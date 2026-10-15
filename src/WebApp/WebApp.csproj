@@ -11,8 +11,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\eShop.ServiceDefaults\eShop.ServiceDefaults.csproj" />
-    <ProjectReference Include="..\EventBusRabbitMQ\EventBusRabbitMQ.csproj" />
     <ProjectReference Include="..\WebAppComponents\WebAppComponents.csproj" />
   </ItemGroup>
 
@@ -29,6 +27,12 @@
 
   <ItemGroup>
     <Protobuf Include="..\Basket.API\Proto\basket.proto" GrpcServices="Client" />
+  </ItemGroup>
+
+  <!-- Built by Bazel and consumed as workspace packages (bazel run //:packages). -->
+  <ItemGroup>
+    <PackageReference Include="eShop.ServiceDefaults" />
+    <PackageReference Include="EventBusRabbitMQ" />
   </ItemGroup>
 
 </Project>
