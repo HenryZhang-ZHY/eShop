@@ -1,0 +1,15 @@
+load("//bazel:eshop.bzl", "eshop_test")
+
+# Ordering.Domain's tests need nothing but the domain, so they run under Bazel
+# and only rerun when the domain (or the tests) change.
+eshop_test(
+    name = "Ordering.Domain.UnitTests",
+    usings = [
+        "eShop.Ordering.Domain.AggregatesModel.BuyerAggregate",
+        "eShop.Ordering.Domain.Events",
+        "eShop.Ordering.Domain.Exceptions",
+        "eShop.Ordering.Domain.SeedWork",
+        "MediatR",
+    ],
+    deps = ["//src/Ordering.Domain"],
+)
