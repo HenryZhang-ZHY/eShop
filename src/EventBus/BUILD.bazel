@@ -1,0 +1,7 @@
+load("//bazel:eshop.bzl", "eshop_library")
+
+eshop_library(
+    name = "EventBus",
+    root_namespace = "eShop.EventBus",
+    deps = ["@nuget//:Microsoft.Extensions.Options"],
+)

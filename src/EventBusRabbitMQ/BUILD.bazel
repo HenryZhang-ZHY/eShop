@@ -1,0 +1,12 @@
+load("//bazel:eshop.bzl", "eshop_library")
+
+eshop_library(
+    name = "EventBusRabbitMQ",
+    srcs = glob(["**/*.cs"]) + ["//src/Shared:ActivityExtensions.cs"],
+    build_properties = {"EnableConfigurationBindingGenerator": "true"},
+    root_namespace = "eShop.EventBusRabbitMQ",
+    deps = [
+        "//src/EventBus",
+        "@nuget//:Aspire.RabbitMQ.Client",
+    ],
+)

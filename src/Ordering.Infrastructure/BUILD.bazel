@@ -1,0 +1,10 @@
+load("//bazel:eshop.bzl", "eshop_library")
+
+eshop_library(
+    name = "Ordering.Infrastructure",
+    deps = [
+        "//src/IntegrationEventLogEF",
+        "//src/Ordering.Domain",
+        "@nuget//:Npgsql.EntityFrameworkCore.PostgreSQL",
+    ],
+)

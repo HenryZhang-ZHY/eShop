@@ -1,0 +1,48 @@
+load("@bazel_net//dotnet:defs.bzl", "nuget_lock", "workspace_packages")
+
+exports_files([".editorconfig"])
+
+# NuGet packages that Bazel-built libraries and tests reference directly.
+nuget_lock(
+    name = "nuget_lock",
+    nuget_config = "nuget.config",
+    packages = [
+        "Asp.Versioning.Mvc.ApiExplorer",
+        "Asp.Versioning.OpenApi",
+        "Aspire.RabbitMQ.Client",
+        "MediatR",
+        "Microsoft.AspNetCore.Authentication.JwtBearer",
+        "Microsoft.AspNetCore.OpenApi",
+        "Microsoft.Extensions.Http.Resilience",
+        "Microsoft.Extensions.Options",
+        "Microsoft.Extensions.ServiceDiscovery",
+        "Microsoft.OpenApi",
+        "MSTest",
+        "Npgsql.EntityFrameworkCore.PostgreSQL",
+        "NSubstitute",
+        "NSubstitute.Analyzers.CSharp",
+        "OpenTelemetry.Exporter.OpenTelemetryProtocol",
+        "OpenTelemetry.Extensions.Hosting",
+        "OpenTelemetry.Instrumentation.AspNetCore",
+        "OpenTelemetry.Instrumentation.GrpcNetClient",
+        "OpenTelemetry.Instrumentation.Http",
+        "OpenTelemetry.Instrumentation.Runtime",
+        "Scalar.AspNetCore",
+        "System.Reflection.TypeExtensions",
+    ],
+    versions = "Directory.Packages.props",
+)
+
+# Libraries the host projects (src/*.API, WebApp, ...) consume as NuGet
+# packages. `bazel run //:packages` publishes them to .bazel-packages/.
+workspace_packages(
+    name = "packages",
+    libraries = [
+        "//src/EventBus",
+        "//src/EventBusRabbitMQ",
+        "//src/IntegrationEventLogEF",
+        "//src/Ordering.Domain",
+        "//src/Ordering.Infrastructure",
+        "//src/eShop.ServiceDefaults",
+    ],
+)

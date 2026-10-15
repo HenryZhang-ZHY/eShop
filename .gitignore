@@ -493,3 +493,7 @@ $RECYCLE.BIN/
 /playwright/.auth/
 /user.json
 .azure
+
+# Bazel
+/bazel-*
+/.bazel-packages/

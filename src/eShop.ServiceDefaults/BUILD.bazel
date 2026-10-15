@@ -1,0 +1,23 @@
+load("//bazel:eshop.bzl", "eshop_library")
+
+eshop_library(
+    name = "eShop.ServiceDefaults",
+    frameworks = ["Microsoft.AspNetCore.App"],
+    nullable = "enable",
+    deps = [
+        "@nuget//:Asp.Versioning.Mvc.ApiExplorer",
+        "@nuget//:Asp.Versioning.OpenApi",
+        "@nuget//:Microsoft.AspNetCore.Authentication.JwtBearer",
+        "@nuget//:Microsoft.AspNetCore.OpenApi",
+        "@nuget//:Microsoft.Extensions.Http.Resilience",
+        "@nuget//:Microsoft.Extensions.ServiceDiscovery",
+        "@nuget//:Microsoft.OpenApi",
+        "@nuget//:OpenTelemetry.Exporter.OpenTelemetryProtocol",
+        "@nuget//:OpenTelemetry.Extensions.Hosting",
+        "@nuget//:OpenTelemetry.Instrumentation.AspNetCore",
+        "@nuget//:OpenTelemetry.Instrumentation.GrpcNetClient",
+        "@nuget//:OpenTelemetry.Instrumentation.Http",
+        "@nuget//:OpenTelemetry.Instrumentation.Runtime",
+        "@nuget//:Scalar.AspNetCore",
+    ],
+)

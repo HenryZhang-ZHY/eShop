@@ -1,0 +1,10 @@
+common --enable_platform_specific_config
+
+# Keep PATH and friends out of action keys so cache hits survive across shells.
+build --incompatible_strict_action_env
+
+test --test_output=errors
+
+# Bazel's built-in rules_android reads ANDROID_HOME during toolchain resolution.
+# Hide the machine's Android SDK so it can't break (or influence) .NET builds.
+common --repo_env=ANDROID_HOME=

@@ -1,0 +1,5 @@
+# Source files that several projects compile in (<Compile Include=... Link=...>).
+exports_files(
+    ["ActivityExtensions.cs"],
+    visibility = ["//visibility:public"],
+)

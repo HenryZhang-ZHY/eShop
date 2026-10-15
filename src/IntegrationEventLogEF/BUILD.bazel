@@ -1,0 +1,10 @@
+load("//bazel:eshop.bzl", "eshop_library")
+
+eshop_library(
+    name = "IntegrationEventLogEF",
+    root_namespace = "eShop.IntegrationEventLogEF",
+    deps = [
+        "//src/EventBus",
+        "@nuget//:Npgsql.EntityFrameworkCore.PostgreSQL",
+    ],
+)

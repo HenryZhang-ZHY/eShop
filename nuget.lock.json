@@ -1,0 +1,2916 @@
+{
+  "version": 1,
+  "tfm": "net10.0",
+  "source": "https://api.nuget.org/v3-flatcontainer/",
+  "packages": {
+    "Asp.Versioning.Abstractions": {
+      "version": "10.2.1",
+      "sha512": "kBtuzOQPhnOR1yXwAbg2b79q7x0jxGAh/qnWjzYathPFUUwSFpKD3vz2h4huPFc3jOKfjjjetfB95F4+J29L9w==",
+      "dependencies": [
+        "Microsoft.Extensions.Primitives"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Asp.Versioning.Abstractions.dll",
+          "name": "Asp.Versioning.Abstractions",
+          "version": "10.2.0.0",
+          "file_version": "10.2.9714.15149"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Asp.Versioning.Abstractions.dll",
+          "name": "Asp.Versioning.Abstractions",
+          "version": "10.2.0.0",
+          "file_version": "10.2.9714.15149"
+        }
+      ],
+      "analyzers": [
+        {
+          "path": "analyzers/dotnet/cs/Asp.Versioning.Analyzers.dll",
+          "name": "Asp.Versioning.Analyzers",
+          "version": "1.0.0.0",
+          "file_version": "1.0.9714.15316"
+        }
+      ],
+      "build": []
+    },
+    "Asp.Versioning.Http": {
+      "version": "10.2.3",
+      "sha512": "BOvJAuoahMlulluT0y4l/J6pTb8mjqo5CUIKdiwHSEUaEt/1eR2wO/tdJdIBXrjOkT+lymkjFcZqzvAIysbzCw==",
+      "dependencies": [
+        "Asp.Versioning.Abstractions"
+      ],
+      "frameworks": [
+        "Microsoft.AspNetCore.App"
+      ],
+      "compile": [
+        {
+          "path": "lib/net10.0/Asp.Versioning.Http.dll",
+          "name": "Asp.Versioning.Http",
+          "version": "10.2.0.0",
+          "file_version": "10.2.9730.38217"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Asp.Versioning.Http.dll",
+          "name": "Asp.Versioning.Http",
+          "version": "10.2.0.0",
+          "file_version": "10.2.9730.38217"
+        }
+      ],
+      "analyzers": [
+        {
+          "path": "analyzers/dotnet/cs/Asp.Versioning.Api.Analyzers.dll",
+          "name": "Asp.Versioning.Api.Analyzers",
+          "version": "1.0.0.0",
+          "file_version": "1.0.9730.38401"
+        }
+      ],
+      "build": []
+    },
+    "Asp.Versioning.Mvc": {
+      "version": "10.2.1",
+      "sha512": "O2X3p9R9m8WRQkj6TIeEFVoe8KmrE/sTBoWj2i2Yg9T+8RRCjUaHScky+5AObyJCee9zKW/UB8PaRogiGUvLxg==",
+      "dependencies": [
+        "Asp.Versioning.Http"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Asp.Versioning.Mvc.dll",
+          "name": "Asp.Versioning.Mvc",
+          "version": "10.2.0.0",
+          "file_version": "10.2.9714.15157"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Asp.Versioning.Mvc.dll",
+          "name": "Asp.Versioning.Mvc",
+          "version": "10.2.0.0",
+          "file_version": "10.2.9714.15157"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Asp.Versioning.Mvc.ApiExplorer": {
+      "version": "10.2.1",
+      "sha512": "0dUzxDCuBFRmYJPjJ5/P7zhAwqpihvQnOs8W+1xyZ7johPXW3LPVGrlKmVZzMMrHD2xwCstfZojuLSuW+7P/fg==",
+      "dependencies": [
+        "Asp.Versioning.Mvc"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Asp.Versioning.Mvc.ApiExplorer.dll",
+          "name": "Asp.Versioning.Mvc.ApiExplorer",
+          "version": "10.2.0.0",
+          "file_version": "10.2.9714.15157"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Asp.Versioning.Mvc.ApiExplorer.dll",
+          "name": "Asp.Versioning.Mvc.ApiExplorer",
+          "version": "10.2.0.0",
+          "file_version": "10.2.9714.15157"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Asp.Versioning.OpenApi": {
+      "version": "10.2.3",
+      "sha512": "AGrB7LgqIokv9HdFQlWP6o4y63/dmHvB2FgSJ+XdMeK10WdwHm+el/FAzCoFhSL5C2CoSwD2mw1FYmlghlBh3Q==",
+      "dependencies": [
+        "Asp.Versioning.Mvc.ApiExplorer",
+        "Microsoft.AspNetCore.OpenApi",
+        "Microsoft.OpenApi"
+      ],
+      "frameworks": [
+        "Microsoft.AspNetCore.App"
+      ],
+      "compile": [
+        {
+          "path": "lib/net10.0/Asp.Versioning.OpenApi.dll",
+          "name": "Asp.Versioning.OpenApi",
+          "version": "10.2.0.0",
+          "file_version": "10.2.9730.38217"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Asp.Versioning.OpenApi.dll",
+          "name": "Asp.Versioning.OpenApi",
+          "version": "10.2.0.0",
+          "file_version": "10.2.9730.38217"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Aspire.RabbitMQ.Client": {
+      "version": "13.6.0",
+      "sha512": "9evv28YOpdyVg5dtDy4B1nu2f7iuA++n5AAmP2rVR91Pb3ZKu27yKLXPhKdfUOVJfgETTVrAuVyQSqXMsjCuww==",
+      "dependencies": [
+        "AspNetCore.HealthChecks.Rabbitmq",
+        "Microsoft.Extensions.Configuration.Abstractions",
+        "Microsoft.Extensions.Configuration.Binder",
+        "Microsoft.Extensions.Configuration.EnvironmentVariables",
+        "Microsoft.Extensions.DependencyInjection.Abstractions",
+        "Microsoft.Extensions.DependencyInjection.AutoActivation",
+        "Microsoft.Extensions.Diagnostics.HealthChecks",
+        "Microsoft.Extensions.Hosting.Abstractions",
+        "Microsoft.Extensions.Logging",
+        "Microsoft.Extensions.Logging.Abstractions",
+        "Microsoft.Extensions.Options",
+        "Microsoft.Extensions.Primitives",
+        "OpenTelemetry.Extensions.Hosting",
+        "Polly.Core",
+        "RabbitMQ.Client"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Aspire.RabbitMQ.Client.dll",
+          "name": "Aspire.RabbitMQ.Client",
+          "version": "13.6.0.0",
+          "file_version": "13.600.26.47908"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Aspire.RabbitMQ.Client.dll",
+          "name": "Aspire.RabbitMQ.Client",
+          "version": "13.6.0.0",
+          "file_version": "13.600.26.47908"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "AspNetCore.HealthChecks.Rabbitmq": {
+      "version": "9.0.0",
+      "sha512": "UQMvnTKc4ueH9Cmx0JH/WBBCyaCDL0kwCEyM3Hf9TZ1AQujQ/Oh+b/MXcazsQakNry+iaFCOIjg2ADIHCYw8+w==",
+      "dependencies": [
+        "Microsoft.Extensions.Diagnostics.HealthChecks",
+        "RabbitMQ.Client"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net8.0/HealthChecks.Rabbitmq.dll",
+          "name": "HealthChecks.Rabbitmq",
+          "version": "9.0.0.0",
+          "file_version": "9.0.0.0"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net8.0/HealthChecks.Rabbitmq.dll",
+          "name": "HealthChecks.Rabbitmq",
+          "version": "9.0.0.0",
+          "file_version": "9.0.0.0"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Castle.Core": {
+      "version": "5.1.1",
+      "sha512": "N4oUnr+qEtAMs1vK7ogGgD33vHWYDJ4MZ/NuPgV9avKrrq0kzYJ0qVlcesdMuVl8nWkTsRJbhuaxVqZvehrC+g==",
+      "dependencies": [
+        "System.Diagnostics.EventLog"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net6.0/Castle.Core.dll",
+          "name": "Castle.Core",
+          "version": "5.0.0.0",
+          "file_version": "5.1.1"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net6.0/Castle.Core.dll",
+          "name": "Castle.Core",
+          "version": "5.0.0.0",
+          "file_version": "5.1.1"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "MediatR": {
+      "version": "13.1.0",
+      "sha512": "8Z6uLmkGVDm7NerN2fgpuB1sGWELLMol5Jn9aoper/q9pXh3mtNXMHw3L33Y3Ts+IjHhFbb01J5bk6ZYZnG7Gw==",
+      "dependencies": [
+        "MediatR.Contracts",
+        "Microsoft.Extensions.DependencyInjection.Abstractions",
+        "Microsoft.Extensions.Logging.Abstractions",
+        "Microsoft.IdentityModel.JsonWebTokens"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net9.0/MediatR.dll",
+          "name": "MediatR",
+          "version": "13.0.0.0",
+          "file_version": "13.1.0.0"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net9.0/MediatR.dll",
+          "name": "MediatR",
+          "version": "13.0.0.0",
+          "file_version": "13.1.0.0"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "MediatR.Contracts": {
+      "version": "2.0.1",
+      "sha512": "cafpnzMGRUPAmTB4RMXnd+1veuUCgiseg/tU4SFF7NO2GQGwh2sGbr41ZZPHouMcJjYyptKJnms7V3/XeSThcw==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/netstandard2.0/MediatR.Contracts.dll",
+          "name": "MediatR.Contracts",
+          "version": "2.0.1.0",
+          "file_version": "2.0.1.0"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/netstandard2.0/MediatR.Contracts.dll",
+          "name": "MediatR.Contracts",
+          "version": "2.0.1.0",
+          "file_version": "2.0.1.0"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.ApplicationInsights": {
+      "version": "2.23.0",
+      "sha512": "3Ul7+tDGXlSk940qFkTz0IVNTNAd2DulBvjV1TY14oFSx8EyEN1d05hXgKqxRqdiDePrrq2O8SxvhwiGdsIVfw==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/netstandard2.0/Microsoft.ApplicationInsights.dll",
+          "name": "Microsoft.ApplicationInsights",
+          "version": "2.23.0.29",
+          "file_version": "2.23.0.00029"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/netstandard2.0/Microsoft.ApplicationInsights.dll",
+          "name": "Microsoft.ApplicationInsights",
+          "version": "2.23.0.29",
+          "file_version": "2.23.0.00029"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer": {
+      "version": "10.0.12",
+      "sha512": "C7/RArUZ5Ews6LYbGiUfnTi5nQla65bU4aTGOjQZDRP7Ro/WhVzx5qVwLnhahFE225mILbbTVatBK19cQrhAlg==",
+      "dependencies": [
+        "Microsoft.IdentityModel.Protocols.OpenIdConnect"
+      ],
+      "frameworks": [
+        "Microsoft.AspNetCore.App"
+      ],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
+          "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
+          "version": "10.0.12.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
+          "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
+          "version": "10.0.12.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.AspNetCore.OpenApi": {
+      "version": "10.0.12",
+      "sha512": "YFgV0nkzr4vmWX+FfOMfJfdObAEestPL/eqImM9hChLUpUO4ISE/L/QtgqgziIHAfAuUiFYDejobzjdoErBiWQ==",
+      "dependencies": [
+        "Microsoft.OpenApi"
+      ],
+      "frameworks": [
+        "Microsoft.AspNetCore.App"
+      ],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll",
+          "name": "Microsoft.AspNetCore.OpenApi",
+          "version": "10.0.12.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll",
+          "name": "Microsoft.AspNetCore.OpenApi",
+          "version": "10.0.12.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [
+        {
+          "path": "analyzers/dotnet/cs/Microsoft.AspNetCore.OpenApi.SourceGenerators.dll",
+          "name": "Microsoft.AspNetCore.OpenApi.SourceGenerators",
+          "version": "10.0.12.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "build": []
+    },
+    "Microsoft.Bcl.Cryptography": {
+      "version": "10.0.2",
+      "sha512": "rbP/krRdXXVG10QyWH0rWa5+0qP5Rob8VZDKno910kHnDcmH9XdFbBtdedO5pVVlpA1y2MXWx360zLLNLctJ+Q==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Bcl.Cryptography.dll",
+          "name": "Microsoft.Bcl.Cryptography",
+          "version": "10.0.0.2",
+          "file_version": "10.0.225.61305"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Bcl.Cryptography.dll",
+          "name": "Microsoft.Bcl.Cryptography",
+          "version": "10.0.0.2",
+          "file_version": "10.0.225.61305"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.CodeCoverage": {
+      "version": "18.0.1",
+      "sha512": "0bzrz+vR49E/jtdBySXaJSPP4plwnMHE2qsyJZgZJuDdIOtLUFswInVa7krxIVz2ur6KJZFdTPXr3WMXfgnDNg==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net8.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
+          "name": "Microsoft.VisualStudio.CodeCoverage.Shim",
+          "version": "15.0.0.0",
+          "file_version": "18.0.625.52306"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net8.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
+          "name": "Microsoft.VisualStudio.CodeCoverage.Shim",
+          "version": "15.0.0.0",
+          "file_version": "18.0.625.52306"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.DiaSymReader": {
+      "version": "2.0.0",
+      "sha512": "iiVGfxBzSLmi5NrsRyx4izNmPIcVcmN2tlmF+6rNG1pEaJgeolIUrvhkUFOKaV7QMYPytVgMmSd1V0SiBm/ocA==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/netstandard2.0/Microsoft.DiaSymReader.dll",
+          "name": "Microsoft.DiaSymReader",
+          "version": "2.0.0.0",
+          "file_version": "2.0.23.22804"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/netstandard2.0/Microsoft.DiaSymReader.dll",
+          "name": "Microsoft.DiaSymReader",
+          "version": "2.0.0.0",
+          "file_version": "2.0.23.22804"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.EntityFrameworkCore": {
+      "version": "10.0.12",
+      "sha512": "RMOhWDPnNYra6hKkj7moYkpeTIUV8MBH2arDuGkzxZ4cun7+bD2HQfy4wbWaGufdndBP9VCUWuyiGq1Pv5wbxw==",
+      "dependencies": [
+        "Microsoft.EntityFrameworkCore.Abstractions",
+        "Microsoft.EntityFrameworkCore.Analyzers",
+        "Microsoft.Extensions.Caching.Memory",
+        "Microsoft.Extensions.Logging"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.EntityFrameworkCore.dll",
+          "name": "Microsoft.EntityFrameworkCore",
+          "version": "10.0.12.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.EntityFrameworkCore.dll",
+          "name": "Microsoft.EntityFrameworkCore",
+          "version": "10.0.12.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions": {
+      "version": "10.0.12",
+      "sha512": "wHwoTc4A/BwWeWRkPf0azaDyhRNf3K8qYWcAl+v3zsOdP8xe/ikvxSXXme7Vu1Txfc8nH579wUlMOd1RN3Gyqw==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
+          "name": "Microsoft.EntityFrameworkCore.Abstractions",
+          "version": "10.0.12.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
+          "name": "Microsoft.EntityFrameworkCore.Abstractions",
+          "version": "10.0.12.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.EntityFrameworkCore.Analyzers": {
+      "version": "10.0.12",
+      "sha512": "mBajPzL60eP21FdbsXm254MLpiNtlJQI352APp4tlam9Rqy9frtSr+9HUnoABycrBgiiluoOeIDdPqMk3VnPOg==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [],
+      "runtime": [],
+      "analyzers": [
+        {
+          "path": "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
+          "name": "Microsoft.EntityFrameworkCore.Analyzers",
+          "version": "10.0.12.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "build": []
+    },
+    "Microsoft.EntityFrameworkCore.Relational": {
+      "version": "10.0.12",
+      "sha512": "2CIHh1kiCQ1QWPjHjr4W8INi/fQMeZT2ZBOd/bE5TWwJhZ+ApygUWrAq1R3NRMuDiwPln0HQeL6vEi/SvoKtdg==",
+      "dependencies": [
+        "Microsoft.EntityFrameworkCore",
+        "Microsoft.Extensions.Caching.Memory",
+        "Microsoft.Extensions.Configuration.Abstractions",
+        "Microsoft.Extensions.Logging"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.EntityFrameworkCore.Relational.dll",
+          "name": "Microsoft.EntityFrameworkCore.Relational",
+          "version": "10.0.12.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.EntityFrameworkCore.Relational.dll",
+          "name": "Microsoft.EntityFrameworkCore.Relational",
+          "version": "10.0.12.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.AmbientMetadata.Application": {
+      "version": "10.10.0",
+      "sha512": "aUN5Dw35Wj5wNz3J0Epc/ZVc7xuS7PTrrt/a4+r6nY2CxHVTghxwQki2ykn92hZnwMP9/33rYc09xXR35LSpTg==",
+      "dependencies": [
+        "Microsoft.Extensions.Configuration",
+        "Microsoft.Extensions.Hosting.Abstractions",
+        "Microsoft.Extensions.Options.ConfigurationExtensions"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.AmbientMetadata.Application.dll",
+          "name": "Microsoft.Extensions.AmbientMetadata.Application",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.AmbientMetadata.Application.dll",
+          "name": "Microsoft.Extensions.AmbientMetadata.Application",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Caching.Abstractions": {
+      "version": "10.0.12",
+      "sha512": "tpbESsKJgXYHIAmM6KWhw8utAY0isZKBjPlAbsaZ1ccV1MhGBE+gX1ZKiwyFAAkLW3Qr50Y8OprmAoRsP3PvbQ==",
+      "dependencies": [
+        "Microsoft.Extensions.Primitives"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Caching.Abstractions.dll",
+          "name": "Microsoft.Extensions.Caching.Abstractions",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Caching.Abstractions.dll",
+          "name": "Microsoft.Extensions.Caching.Abstractions",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Caching.Memory": {
+      "version": "10.0.12",
+      "sha512": "A/kXPFwMtUPhq8OM56upWhhWBOKsyENh6/b3ryPFTCr4YVJ36BupsjLOpK7mVEcJ0Prz3QyxahaeHLu81g+2Mw==",
+      "dependencies": [
+        "Microsoft.Extensions.Caching.Abstractions",
+        "Microsoft.Extensions.DependencyInjection.Abstractions",
+        "Microsoft.Extensions.Logging.Abstractions",
+        "Microsoft.Extensions.Options",
+        "Microsoft.Extensions.Primitives"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Caching.Memory.dll",
+          "name": "Microsoft.Extensions.Caching.Memory",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Caching.Memory.dll",
+          "name": "Microsoft.Extensions.Caching.Memory",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Compliance.Abstractions": {
+      "version": "10.10.0",
+      "sha512": "4KKOUTgbwxFmK0F/qUgvrDTaSOBdrtcnxxN7x21EQhzoNPc49lxoJu7IbeIxuwkahbEVk+Qe/xyb6CEMhPjaTQ==",
+      "dependencies": [
+        "Microsoft.Extensions.DependencyInjection.Abstractions",
+        "Microsoft.Extensions.ObjectPool"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Compliance.Abstractions.dll",
+          "name": "Microsoft.Extensions.Compliance.Abstractions",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Compliance.Abstractions.dll",
+          "name": "Microsoft.Extensions.Compliance.Abstractions",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Configuration": {
+      "version": "10.0.12",
+      "sha512": "2IfERnC6VSvQ4XyMfXMZMO334BCHD7ifkNN1KkyA7fdIXRjMQmPenR25EuRNj4dZ8h0wwtEtlFpr+ppKkiOUWw==",
+      "dependencies": [
+        "Microsoft.Extensions.Configuration.Abstractions",
+        "Microsoft.Extensions.Primitives"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Configuration.dll",
+          "name": "Microsoft.Extensions.Configuration",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Configuration.dll",
+          "name": "Microsoft.Extensions.Configuration",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Configuration.Abstractions": {
+      "version": "10.0.12",
+      "sha512": "TZ4PJHUuUpM8ck2v6La2r23Hbvs5BAuWZKKn7/S10SBpHAAYXiRrfoBuOF3MCUH4ds7Tys7uScFCwK30a8crZg==",
+      "dependencies": [
+        "Microsoft.Extensions.Primitives"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+          "name": "Microsoft.Extensions.Configuration.Abstractions",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+          "name": "Microsoft.Extensions.Configuration.Abstractions",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Configuration.Binder": {
+      "version": "10.0.12",
+      "sha512": "hX7WQh+3+FYIhWq9Edz5hXgbpn+aQRRGXJpUQ4h9E6tZTdPkQ6dtDOyCssCXZlv/oq9PieQKFKdgUhsNEP8jpQ==",
+      "dependencies": [
+        "Microsoft.Extensions.Configuration",
+        "Microsoft.Extensions.Configuration.Abstractions"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Configuration.Binder.dll",
+          "name": "Microsoft.Extensions.Configuration.Binder",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Configuration.Binder.dll",
+          "name": "Microsoft.Extensions.Configuration.Binder",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [
+        {
+          "path": "analyzers/dotnet/cs/Microsoft.Extensions.Configuration.Binder.SourceGeneration.dll",
+          "name": "Microsoft.Extensions.Configuration.Binder.SourceGeneration",
+          "version": "10.0.14.42308",
+          "file_version": "10.0.14.42308"
+        }
+      ],
+      "build": []
+    },
+    "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+      "version": "10.0.12",
+      "sha512": "IoLmJ7bwLXRRULKqDfpCvwGK6AAE4OL7u9LsyjMg9QIyESrortT1fF6Vjvsq4AuejY0y/hEJXFkHG5uvFa8HmA==",
+      "dependencies": [
+        "Microsoft.Extensions.Configuration",
+        "Microsoft.Extensions.Configuration.Abstractions"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+          "name": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+          "name": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.DependencyInjection": {
+      "version": "10.0.12",
+      "sha512": "4bTS7TpB4aMRxegFpYgsp9HDI0TvFC6bt2n9SsyJ9xLy6ZEspW2ji7bQ7dKguG2w5LbsJtFiWz+wiPZgpmQ/KQ==",
+      "dependencies": [
+        "Microsoft.Extensions.DependencyInjection.Abstractions"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.DependencyInjection.dll",
+          "name": "Microsoft.Extensions.DependencyInjection",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.DependencyInjection.dll",
+          "name": "Microsoft.Extensions.DependencyInjection",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions": {
+      "version": "10.0.12",
+      "sha512": "kTf3x6w7DOuNj6kS0kL8oEGSSXJnqiPm3G+ddUfVB743EaO5Np8CX3r9pQp0ovBY7/J+KY0JLbwuhC02nFQO1g==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+          "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+          "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.DependencyInjection.AutoActivation": {
+      "version": "10.10.0",
+      "sha512": "QDPlJ4JffBVCFC1I6mIYE73pjEFlPAI8uqFQgfDfGQr4IlJwzLFI2NT5EuPf2IhnhdezWT7sn06KZVkTezRCEg==",
+      "dependencies": [
+        "Microsoft.Extensions.Hosting.Abstractions"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.DependencyInjection.AutoActivation.dll",
+          "name": "Microsoft.Extensions.DependencyInjection.AutoActivation",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.DependencyInjection.AutoActivation.dll",
+          "name": "Microsoft.Extensions.DependencyInjection.AutoActivation",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.DependencyModel": {
+      "version": "6.0.2",
+      "sha512": "X5HZF+YLY5oPRP/rq+GXshGH06DE942camw6IKFGk8L6uVYRGE749sXAm/vAIHvlUzWqtriWZhWTbuyWcWD/0w==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll",
+          "name": "Microsoft.Extensions.DependencyModel",
+          "version": "6.0.0.2",
+          "file_version": "6.0.3624.51421"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll",
+          "name": "Microsoft.Extensions.DependencyModel",
+          "version": "6.0.0.2",
+          "file_version": "6.0.3624.51421"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Diagnostics": {
+      "version": "10.0.12",
+      "sha512": "J15IKoJ6sYUgft34XsWdImt8EQrD9tdyOzwZDBJpIDkAqR119mNhAbbwAm2b8Ul5W6j3V94OptYWMOqLO+8+2A==",
+      "dependencies": [
+        "Microsoft.Extensions.Configuration",
+        "Microsoft.Extensions.Diagnostics.Abstractions",
+        "Microsoft.Extensions.Options.ConfigurationExtensions"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Diagnostics.dll",
+          "name": "Microsoft.Extensions.Diagnostics",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Diagnostics.dll",
+          "name": "Microsoft.Extensions.Diagnostics",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Diagnostics.Abstractions": {
+      "version": "10.0.12",
+      "sha512": "8i5OD/g0Xj8Q1TizgLzs6h/M7sF+CUT2JzgNuUnFBf5qHF0/jk84HCnk4mpG+t0QyFKdRB4aJ+/mLEpLhJ5sVg==",
+      "dependencies": [
+        "Microsoft.Extensions.DependencyInjection.Abstractions",
+        "Microsoft.Extensions.Options"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+          "name": "Microsoft.Extensions.Diagnostics.Abstractions",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+          "name": "Microsoft.Extensions.Diagnostics.Abstractions",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Diagnostics.ExceptionSummarization": {
+      "version": "10.10.0",
+      "sha512": "OnoxdzVpC5VGoTo/lrK6Nyglv3AeOIDQSpTtAWQbt/HimGkVCJQHHZ2ZO5s2mB+l6j7Qa+JhjlIOS+Ys9L8gTQ==",
+      "dependencies": [
+        "Microsoft.Extensions.DependencyInjection.Abstractions"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Diagnostics.ExceptionSummarization.dll",
+          "name": "Microsoft.Extensions.Diagnostics.ExceptionSummarization",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Diagnostics.ExceptionSummarization.dll",
+          "name": "Microsoft.Extensions.Diagnostics.ExceptionSummarization",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Diagnostics.HealthChecks": {
+      "version": "10.0.12",
+      "sha512": "cwawQoayFa162+os743171OgPp4QHue/R6W6HbhFGnvaPbQz2hE39Gt6nngLZopOVkauxNiRGfQge8OFDN6hIw==",
+      "dependencies": [
+        "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions",
+        "Microsoft.Extensions.Hosting.Abstractions",
+        "Microsoft.Extensions.Logging.Abstractions",
+        "Microsoft.Extensions.Options"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll",
+          "name": "Microsoft.Extensions.Diagnostics.HealthChecks",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll",
+          "name": "Microsoft.Extensions.Diagnostics.HealthChecks",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": {
+      "version": "10.0.12",
+      "sha512": "aRkha3TyZrBSBQBETqgCUXRU/LIgJQ+fS/GCgdaFGWrUEhFvkDAQyS0SK28zEjx5siE7qGhhbQb7ETbc4S2ptA==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
+          "name": "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
+          "name": "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Features": {
+      "version": "10.0.12",
+      "sha512": "iB6K7/1JfCyYvCD0XxnkQQXV5sPsbBjuHwGI+SitEyRroxmyJSZWkt84wW/Ni6lvn/Qc4aCNNsdu+8OSSDXkoA==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Features.dll",
+          "name": "Microsoft.Extensions.Features",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Features.dll",
+          "name": "Microsoft.Extensions.Features",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions": {
+      "version": "10.0.12",
+      "sha512": "uvXk5vVWju5qjSCOQCiuXi0bDoy7kI9Ds1XRpIPl0PTpgWA+sAanC6j3fR2H6lw9KHHdwdgp4oCUvN417a4Saw==",
+      "dependencies": [
+        "Microsoft.Extensions.Primitives"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+          "name": "Microsoft.Extensions.FileProviders.Abstractions",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+          "name": "Microsoft.Extensions.FileProviders.Abstractions",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Hosting.Abstractions": {
+      "version": "10.0.12",
+      "sha512": "F31e9IMQm70ywZhUsXWzAx5x51989XK6CJ9FxPK5MpD/nxRzu6qAt8MT0ZfV7wl+38v60dx2GZny6cs0LJc+OQ==",
+      "dependencies": [
+        "Microsoft.Extensions.Configuration.Abstractions",
+        "Microsoft.Extensions.DependencyInjection.Abstractions",
+        "Microsoft.Extensions.Diagnostics.Abstractions",
+        "Microsoft.Extensions.FileProviders.Abstractions",
+        "Microsoft.Extensions.Logging.Abstractions"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Hosting.Abstractions.dll",
+          "name": "Microsoft.Extensions.Hosting.Abstractions",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Hosting.Abstractions.dll",
+          "name": "Microsoft.Extensions.Hosting.Abstractions",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Http": {
+      "version": "10.0.12",
+      "sha512": "BTgSgbZJCgqJ5jl0RoUYj4+/M5ziHs+uxJ4C/fAXV679gF7qPRyMbHPYUIpZvsuex8XHdXP9nBpfpaqceA8sMg==",
+      "dependencies": [
+        "Microsoft.Extensions.Configuration.Abstractions",
+        "Microsoft.Extensions.DependencyInjection.Abstractions",
+        "Microsoft.Extensions.Diagnostics",
+        "Microsoft.Extensions.Logging",
+        "Microsoft.Extensions.Logging.Abstractions",
+        "Microsoft.Extensions.Options"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Http.dll",
+          "name": "Microsoft.Extensions.Http",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Http.dll",
+          "name": "Microsoft.Extensions.Http",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Http.Diagnostics": {
+      "version": "10.10.0",
+      "sha512": "EGOT+suox+Kwb+dNqAi57/XnDNpCCM03ACU6WrzPrPfbrNTuKhrHn/utPoiCGhm0HkMYPhV9EUrPgf22yKnh8Q==",
+      "dependencies": [
+        "Microsoft.Extensions.Http",
+        "Microsoft.Extensions.Telemetry"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Http.Diagnostics.dll",
+          "name": "Microsoft.Extensions.Http.Diagnostics",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Http.Diagnostics.dll",
+          "name": "Microsoft.Extensions.Http.Diagnostics",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Http.Resilience": {
+      "version": "10.10.0",
+      "sha512": "63XhlGMLMlu8NGpuRwLK8p3oykcDUMgPjHdvNP0mrLnkcWQbJ4FCrO7Gp+dZr7d8SmvzOOubCd5+nh1xdKuJgg==",
+      "dependencies": [
+        "Microsoft.Extensions.Http.Diagnostics",
+        "Microsoft.Extensions.ObjectPool",
+        "Microsoft.Extensions.Resilience"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Http.Resilience.dll",
+          "name": "Microsoft.Extensions.Http.Resilience",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Http.Resilience.dll",
+          "name": "Microsoft.Extensions.Http.Resilience",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Logging": {
+      "version": "10.0.12",
+      "sha512": "7Dee3dIOa04MmZo+XN/FjjaVu2Q0ywIEYHJPhqve5hnu/XnXf9aed+8OBVGx93NeVZhLxDo+zeuemG7NlPHHjQ==",
+      "dependencies": [
+        "Microsoft.Extensions.DependencyInjection",
+        "Microsoft.Extensions.Logging.Abstractions",
+        "Microsoft.Extensions.Options"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Logging.dll",
+          "name": "Microsoft.Extensions.Logging",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Logging.dll",
+          "name": "Microsoft.Extensions.Logging",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Logging.Abstractions": {
+      "version": "10.0.12",
+      "sha512": "6U8g6MRgR1JhFCr4XnlPJIjgKh9Fhh30wwUnuFvnaeJqpgx6c1J4BA5RnPNaMm7vE1zN/QOR+nTSTNswgInX2w==",
+      "dependencies": [
+        "Microsoft.Extensions.DependencyInjection.Abstractions"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Logging.Abstractions.dll",
+          "name": "Microsoft.Extensions.Logging.Abstractions",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Logging.Abstractions.dll",
+          "name": "Microsoft.Extensions.Logging.Abstractions",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [
+        {
+          "path": "analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Logging.Generators.dll",
+          "name": "Microsoft.Extensions.Logging.Generators",
+          "version": "10.0.14.42308",
+          "file_version": "10.0.14.42308"
+        }
+      ],
+      "build": []
+    },
+    "Microsoft.Extensions.Logging.Configuration": {
+      "version": "10.0.12",
+      "sha512": "QrNq2MoHpOzDM85mkbBRJZ9Whv8L1/eqsO1NWES5lWT98WlTz2RUyGM83GrkG3ebOwUuwhA5bcpM+RA0sMQh1A==",
+      "dependencies": [
+        "Microsoft.Extensions.Configuration",
+        "Microsoft.Extensions.Configuration.Abstractions",
+        "Microsoft.Extensions.Configuration.Binder",
+        "Microsoft.Extensions.DependencyInjection.Abstractions",
+        "Microsoft.Extensions.Logging",
+        "Microsoft.Extensions.Logging.Abstractions",
+        "Microsoft.Extensions.Options",
+        "Microsoft.Extensions.Options.ConfigurationExtensions"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Logging.Configuration.dll",
+          "name": "Microsoft.Extensions.Logging.Configuration",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Logging.Configuration.dll",
+          "name": "Microsoft.Extensions.Logging.Configuration",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.ObjectPool": {
+      "version": "10.0.12",
+      "sha512": "5aEhzu+SVL6hmLBROftyuvD1DYjJsbqT0ChVOy9H/wrwzKXesP2MeSPCXlppvYAnLOr+6Ek398TQm8KgNzlJNQ==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.ObjectPool.dll",
+          "name": "Microsoft.Extensions.ObjectPool",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.ObjectPool.dll",
+          "name": "Microsoft.Extensions.ObjectPool",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Options": {
+      "version": "10.0.12",
+      "sha512": "AVPXba8q1GXeRiVr4SVu4YX0iBU+Tn59ObvD2uWkkWOwKoVPZ+HQMpen7TCiA9xpwHGMNqt381z1iWA6nokngQ==",
+      "dependencies": [
+        "Microsoft.Extensions.DependencyInjection.Abstractions",
+        "Microsoft.Extensions.Primitives"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Options.dll",
+          "name": "Microsoft.Extensions.Options",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Options.dll",
+          "name": "Microsoft.Extensions.Options",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [
+        {
+          "path": "analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Options.SourceGeneration.dll",
+          "name": "Microsoft.Extensions.Options.SourceGeneration",
+          "version": "10.0.14.42308",
+          "file_version": "10.0.14.42308"
+        }
+      ],
+      "build": []
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions": {
+      "version": "10.0.12",
+      "sha512": "geP3An4Gv41CXftA64EmzzkZrUpqYAefpTcHBV0UvM28tydQAhMDNNmh4xYpp2KdHhpwsoZgbzug96QrolVzMQ==",
+      "dependencies": [
+        "Microsoft.Extensions.Configuration.Abstractions",
+        "Microsoft.Extensions.Configuration.Binder",
+        "Microsoft.Extensions.DependencyInjection.Abstractions",
+        "Microsoft.Extensions.Options",
+        "Microsoft.Extensions.Primitives"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+          "name": "Microsoft.Extensions.Options.ConfigurationExtensions",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+          "name": "Microsoft.Extensions.Options.ConfigurationExtensions",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Primitives": {
+      "version": "10.0.12",
+      "sha512": "G4hMZ9wJv75ufnnBkHAHbqiywfMGfeyfz/aiBZoLeg5vVgEqZPPAT/nLFb/Pk+/mGCAIRi3i0WfGHTcVDN9lCg==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Primitives.dll",
+          "name": "Microsoft.Extensions.Primitives",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Primitives.dll",
+          "name": "Microsoft.Extensions.Primitives",
+          "version": "10.0.0.0",
+          "file_version": "10.0.1226.42308"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Resilience": {
+      "version": "10.10.0",
+      "sha512": "JttWMorx+nKd7EFYxLcPG20PkTXCjt11b9ZuzEAju5B3nuxMjY++D2HFgCfsmUy2ikYvPIxKqKB9MZ6safpPYQ==",
+      "dependencies": [
+        "Microsoft.Extensions.Diagnostics",
+        "Microsoft.Extensions.Diagnostics.ExceptionSummarization",
+        "Microsoft.Extensions.Options.ConfigurationExtensions",
+        "Microsoft.Extensions.Telemetry.Abstractions",
+        "Polly.Extensions",
+        "Polly.RateLimiting"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Resilience.dll",
+          "name": "Microsoft.Extensions.Resilience",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Resilience.dll",
+          "name": "Microsoft.Extensions.Resilience",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.ServiceDiscovery": {
+      "version": "10.10.0",
+      "sha512": "DSZSrP/W+vcz/+tY0g7TFs4WR2KCCEgbfRbZAJyILpk/7M0IcJreSXYuD0PmKUb2dMhLcQhY53QArmHUEd9Ufg==",
+      "dependencies": [
+        "Microsoft.Extensions.Http",
+        "Microsoft.Extensions.ServiceDiscovery.Abstractions"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.ServiceDiscovery.dll",
+          "name": "Microsoft.Extensions.ServiceDiscovery",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.ServiceDiscovery.dll",
+          "name": "Microsoft.Extensions.ServiceDiscovery",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.ServiceDiscovery.Abstractions": {
+      "version": "10.10.0",
+      "sha512": "cUjFnMRAtsWahakdMpwwF88tSFsLVprzWXRQW/jaYIQlgRLTr5jIUCwBkP3K2OyUpvTtxq8bGSGEtXxVMfTcRQ==",
+      "dependencies": [
+        "Microsoft.Extensions.Configuration.Abstractions",
+        "Microsoft.Extensions.Configuration.Binder",
+        "Microsoft.Extensions.DependencyInjection.Abstractions",
+        "Microsoft.Extensions.Features",
+        "Microsoft.Extensions.Logging.Abstractions",
+        "Microsoft.Extensions.Options",
+        "Microsoft.Extensions.Primitives"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.ServiceDiscovery.Abstractions.dll",
+          "name": "Microsoft.Extensions.ServiceDiscovery.Abstractions",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.ServiceDiscovery.Abstractions.dll",
+          "name": "Microsoft.Extensions.ServiceDiscovery.Abstractions",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Telemetry": {
+      "version": "10.10.0",
+      "sha512": "BclhCyIa1A84BszViA3LG09thL5ZBl47AN3bggDFkhh2LwzK2m0Iz8pqpAVA3qX/0kec7XkoMWfnUg5IHZhMwA==",
+      "dependencies": [
+        "Microsoft.Extensions.AmbientMetadata.Application",
+        "Microsoft.Extensions.DependencyInjection.AutoActivation",
+        "Microsoft.Extensions.Logging.Configuration",
+        "Microsoft.Extensions.ObjectPool",
+        "Microsoft.Extensions.Telemetry.Abstractions"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Telemetry.dll",
+          "name": "Microsoft.Extensions.Telemetry",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Telemetry.dll",
+          "name": "Microsoft.Extensions.Telemetry",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Extensions.Telemetry.Abstractions": {
+      "version": "10.10.0",
+      "sha512": "Fjphee0KoxEAfPhTYG2Tv+7ndjT0wBJwOrRerjm/uly2yyDottH0lmgpwvxGAiVMK7os/6FiedHdWbA/HKSV2w==",
+      "dependencies": [
+        "Microsoft.Extensions.Compliance.Abstractions",
+        "Microsoft.Extensions.Logging.Abstractions",
+        "Microsoft.Extensions.ObjectPool",
+        "Microsoft.Extensions.Options"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Telemetry.Abstractions.dll",
+          "name": "Microsoft.Extensions.Telemetry.Abstractions",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.Extensions.Telemetry.Abstractions.dll",
+          "name": "Microsoft.Extensions.Telemetry.Abstractions",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "analyzers": [
+        {
+          "path": "analyzers/dotnet/cs/Microsoft.Gen.Logging.dll",
+          "name": "Microsoft.Gen.Logging",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        },
+        {
+          "path": "analyzers/dotnet/cs/Microsoft.Gen.Metrics.dll",
+          "name": "Microsoft.Gen.Metrics",
+          "version": "10.10.0.0",
+          "file_version": "10.1000.26.45902"
+        }
+      ],
+      "build": []
+    },
+    "Microsoft.IdentityModel.Abstractions": {
+      "version": "8.19.2",
+      "sha512": "ASRJB/oHIKh2N45fTt/t/+p2WaKxWUfvjTrHUq2N39mON6wJTQTX2gwfZOtwWBM4FZ9I7uNi8rFNaynXbMYNsQ==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.IdentityModel.Abstractions.dll",
+          "name": "Microsoft.IdentityModel.Abstractions",
+          "version": "8.19.2.0",
+          "file_version": "8.19.2.26195"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.IdentityModel.Abstractions.dll",
+          "name": "Microsoft.IdentityModel.Abstractions",
+          "version": "8.19.2.0",
+          "file_version": "8.19.2.26195"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.IdentityModel.JsonWebTokens": {
+      "version": "8.19.2",
+      "sha512": "9kokzW5MVsHjANELTihcvrI48azhzhdFQW+oaEce2rD/sGe5Vf57BRQdXFIyDoWluxYh3vhe8aLQ3mg3BP983w==",
+      "dependencies": [
+        "Microsoft.IdentityModel.Tokens"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+          "name": "Microsoft.IdentityModel.JsonWebTokens",
+          "version": "8.19.2.0",
+          "file_version": "8.19.2.26195"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+          "name": "Microsoft.IdentityModel.JsonWebTokens",
+          "version": "8.19.2.0",
+          "file_version": "8.19.2.26195"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.IdentityModel.Logging": {
+      "version": "8.19.2",
+      "sha512": "15BrxnYEFaE+3svU/8GB7EYQkOd+x0UdlqmNFoV3gY6vN/u4dg10NuXLoDSSUhxHPdc01cvKeoztwGvAw6Vhng==",
+      "dependencies": [
+        "Microsoft.IdentityModel.Abstractions"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.IdentityModel.Logging.dll",
+          "name": "Microsoft.IdentityModel.Logging",
+          "version": "8.19.2.0",
+          "file_version": "8.19.2.26195"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.IdentityModel.Logging.dll",
+          "name": "Microsoft.IdentityModel.Logging",
+          "version": "8.19.2.0",
+          "file_version": "8.19.2.26195"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.IdentityModel.Protocols": {
+      "version": "8.19.2",
+      "sha512": "+OTRiYr9kxDvuGaNtPblS0ZlUcMmgF07YkPa+5lZ1wL7OXnXDeym29XQWiuKnimfnhkO7T4imtkA8dy46p44OQ==",
+      "dependencies": [
+        "Microsoft.IdentityModel.Tokens"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.IdentityModel.Protocols.dll",
+          "name": "Microsoft.IdentityModel.Protocols",
+          "version": "8.19.2.0",
+          "file_version": "8.19.2.26195"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.IdentityModel.Protocols.dll",
+          "name": "Microsoft.IdentityModel.Protocols",
+          "version": "8.19.2.0",
+          "file_version": "8.19.2.26195"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.IdentityModel.Protocols.OpenIdConnect": {
+      "version": "8.19.2",
+      "sha512": "JMioo0XfC6Gk6Ui5Sbs9lSzkFkp78vjcxb7qtzRgK3k1BXB8Baegq/Sr/ROg00qkq99MsZZZt3mgDGdACFTv0w==",
+      "dependencies": [
+        "Microsoft.IdentityModel.Protocols",
+        "System.IdentityModel.Tokens.Jwt"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+          "name": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+          "version": "8.19.2.0",
+          "file_version": "8.19.2.26195"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+          "name": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+          "version": "8.19.2.0",
+          "file_version": "8.19.2.26195"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.IdentityModel.Tokens": {
+      "version": "8.19.2",
+      "sha512": "4rGCcWWvktrOG1esOPr2DMLJpxl9DjIAD943L8C8K8Rcsq30vnOG0IcFMlckuOMots/FHNSUJDxqsmo/EG6eBw==",
+      "dependencies": [
+        "Microsoft.Bcl.Cryptography",
+        "Microsoft.Extensions.Logging.Abstractions",
+        "Microsoft.IdentityModel.Logging"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Microsoft.IdentityModel.Tokens.dll",
+          "name": "Microsoft.IdentityModel.Tokens",
+          "version": "8.19.2.0",
+          "file_version": "8.19.2.26195"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Microsoft.IdentityModel.Tokens.dll",
+          "name": "Microsoft.IdentityModel.Tokens",
+          "version": "8.19.2.0",
+          "file_version": "8.19.2.26195"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.NET.Test.Sdk": {
+      "version": "18.0.1",
+      "sha512": "cfpn4IW0Q+emID8eUocS7xfmwwYgD/JX5S+zCZA2l7gcYzxZ1vvfcdZHcKkuzCH4gMbBYqcZqtBn9uZa0WJRUg==",
+      "dependencies": [
+        "Microsoft.CodeCoverage",
+        "Microsoft.TestPlatform.TestHost"
+      ],
+      "frameworks": [],
+      "compile": [],
+      "runtime": [],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.OpenApi": {
+      "version": "2.12.2",
+      "sha512": "Qy4wh5B8LvRfL9tz1bYh4pnG4qOarzWYqAA3QIFQ3adq4aoOzDN2sgeeWNNxtxFTi6fDQ/DxeobHD89B9DTs8Q==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net8.0/Microsoft.OpenApi.dll",
+          "name": "Microsoft.OpenApi",
+          "version": "2.12.2.0",
+          "file_version": "2.12.2.0"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net8.0/Microsoft.OpenApi.dll",
+          "name": "Microsoft.OpenApi",
+          "version": "2.12.2.0",
+          "file_version": "2.12.2.0"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Testing.Extensions.CodeCoverage": {
+      "version": "18.1.0",
+      "sha512": "i4NeRZPyQ14sAf0x36GHmaGohuryXH3biuSI1RCGSDKD34KqY67ieXKM2vSF1Wsjx7kVMCqJTUaEiI9TpzH5iQ==",
+      "dependencies": [
+        "Microsoft.DiaSymReader",
+        "Microsoft.Extensions.DependencyModel",
+        "Microsoft.Testing.Platform"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net8.0/Microsoft.CodeCoverage.Core.dll",
+          "name": "Microsoft.CodeCoverage.Core",
+          "version": "18.1.0.0",
+          "file_version": "18.100.25.50303"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.CodeCoverage.Instrumentation.Core.dll",
+          "name": "Microsoft.CodeCoverage.Instrumentation.Core",
+          "version": "18.1.0.0",
+          "file_version": "18.100.25.50303"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.CodeCoverage.Instrumentation.dll",
+          "name": "Microsoft.CodeCoverage.Instrumentation",
+          "version": "18.1.0.0",
+          "file_version": "18.100.25.50303"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.CodeCoverage.Interprocess.dll",
+          "name": "Microsoft.CodeCoverage.Interprocess",
+          "version": "18.1.0.0",
+          "file_version": "18.100.25.50303"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.Testing.Extensions.CodeCoverage.dll",
+          "name": "Microsoft.Testing.Extensions.CodeCoverage",
+          "version": "18.1.0.0",
+          "file_version": "18.100.25.50303"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
+          "name": "Microsoft.VisualStudio.CodeCoverage.Shim",
+          "version": "15.0.0.0",
+          "file_version": "18.100.25.50303"
+        },
+        {
+          "path": "lib/net8.0/Mono.Cecil.Mdb.dll",
+          "name": "Mono.Cecil.Mdb",
+          "version": "0.11.5.0",
+          "file_version": "0.11.5.0"
+        },
+        {
+          "path": "lib/net8.0/Mono.Cecil.Pdb.dll",
+          "name": "Mono.Cecil.Pdb",
+          "version": "0.11.5.0",
+          "file_version": "0.11.5.0"
+        },
+        {
+          "path": "lib/net8.0/Mono.Cecil.Rocks.dll",
+          "name": "Mono.Cecil.Rocks",
+          "version": "0.11.5.0",
+          "file_version": "0.11.5.0"
+        },
+        {
+          "path": "lib/net8.0/Mono.Cecil.dll",
+          "name": "Mono.Cecil",
+          "version": "0.11.5.0",
+          "file_version": "0.11.5.0"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net8.0/Microsoft.CodeCoverage.Core.dll",
+          "name": "Microsoft.CodeCoverage.Core",
+          "version": "18.1.0.0",
+          "file_version": "18.100.25.50303"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.CodeCoverage.Instrumentation.Core.dll",
+          "name": "Microsoft.CodeCoverage.Instrumentation.Core",
+          "version": "18.1.0.0",
+          "file_version": "18.100.25.50303"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.CodeCoverage.Instrumentation.dll",
+          "name": "Microsoft.CodeCoverage.Instrumentation",
+          "version": "18.1.0.0",
+          "file_version": "18.100.25.50303"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.CodeCoverage.Interprocess.dll",
+          "name": "Microsoft.CodeCoverage.Interprocess",
+          "version": "18.1.0.0",
+          "file_version": "18.100.25.50303"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.Testing.Extensions.CodeCoverage.dll",
+          "name": "Microsoft.Testing.Extensions.CodeCoverage",
+          "version": "18.1.0.0",
+          "file_version": "18.100.25.50303"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
+          "name": "Microsoft.VisualStudio.CodeCoverage.Shim",
+          "version": "15.0.0.0",
+          "file_version": "18.100.25.50303"
+        },
+        {
+          "path": "lib/net8.0/Mono.Cecil.Mdb.dll",
+          "name": "Mono.Cecil.Mdb",
+          "version": "0.11.5.0",
+          "file_version": "0.11.5.0"
+        },
+        {
+          "path": "lib/net8.0/Mono.Cecil.Pdb.dll",
+          "name": "Mono.Cecil.Pdb",
+          "version": "0.11.5.0",
+          "file_version": "0.11.5.0"
+        },
+        {
+          "path": "lib/net8.0/Mono.Cecil.Rocks.dll",
+          "name": "Mono.Cecil.Rocks",
+          "version": "0.11.5.0",
+          "file_version": "0.11.5.0"
+        },
+        {
+          "path": "lib/net8.0/Mono.Cecil.dll",
+          "name": "Mono.Cecil",
+          "version": "0.11.5.0",
+          "file_version": "0.11.5.0"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Testing.Extensions.Telemetry": {
+      "version": "2.0.2",
+      "sha512": "roLYVoTpzbCIuM3znKYWQsofZdKa2klPACFI9IEj7tYNdXj76pBEKh00K4IWwMBclfbCNZGs0SJOXusXbAcQmA==",
+      "dependencies": [
+        "Microsoft.ApplicationInsights",
+        "Microsoft.Testing.Platform"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net9.0/Microsoft.Testing.Extensions.Telemetry.dll",
+          "name": "Microsoft.Testing.Extensions.Telemetry",
+          "version": "2.0.2.0",
+          "file_version": "2.0.225.56104"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net9.0/Microsoft.Testing.Extensions.Telemetry.dll",
+          "name": "Microsoft.Testing.Extensions.Telemetry",
+          "version": "2.0.2.0",
+          "file_version": "2.0.225.56104"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Testing.Extensions.TrxReport": {
+      "version": "2.0.2",
+      "sha512": "cNfWUGw12siV2q1bUrHvs/cTUcLk8vsfy/CIPjlKMHRxrfyJ4LOmtEuYsi8DUb+Dmq5DUlc5EbpGSXWH6NRi8g==",
+      "dependencies": [
+        "Microsoft.Testing.Extensions.TrxReport.Abstractions",
+        "Microsoft.Testing.Platform"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net9.0/Microsoft.Testing.Extensions.TrxReport.dll",
+          "name": "Microsoft.Testing.Extensions.TrxReport",
+          "version": "2.0.2.0",
+          "file_version": "2.0.225.56104"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net9.0/Microsoft.Testing.Extensions.TrxReport.dll",
+          "name": "Microsoft.Testing.Extensions.TrxReport",
+          "version": "2.0.2.0",
+          "file_version": "2.0.225.56104"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Testing.Extensions.TrxReport.Abstractions": {
+      "version": "2.0.2",
+      "sha512": "cU+dKf/PBIBheaD0hjs+q5LDrKlUeByHi/DcbGEZFWvfwLEHepwkB6bDx/pp6TdF0e6o4Jb8s3uXEqhnV0rLXw==",
+      "dependencies": [
+        "Microsoft.Testing.Platform"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net9.0/Microsoft.Testing.Extensions.TrxReport.Abstractions.dll",
+          "name": "Microsoft.Testing.Extensions.TrxReport.Abstractions",
+          "version": "2.0.2.0",
+          "file_version": "2.0.225.56104"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net9.0/Microsoft.Testing.Extensions.TrxReport.Abstractions.dll",
+          "name": "Microsoft.Testing.Extensions.TrxReport.Abstractions",
+          "version": "2.0.2.0",
+          "file_version": "2.0.225.56104"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Testing.Extensions.VSTestBridge": {
+      "version": "2.0.2",
+      "sha512": "98pJzpUPQBIvhvnO/utkZ8J2fd5x7wYPn7dmpFAfXuDNL3VX5F6pb062p7YCFLF3QN9ql2rXHcCIHRzrmE8sQA==",
+      "dependencies": [
+        "Microsoft.Testing.Extensions.Telemetry",
+        "Microsoft.Testing.Extensions.TrxReport.Abstractions",
+        "Microsoft.Testing.Platform",
+        "Microsoft.TestPlatform.AdapterUtilities",
+        "Microsoft.TestPlatform.ObjectModel"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net9.0/Microsoft.Testing.Extensions.VSTestBridge.dll",
+          "name": "Microsoft.Testing.Extensions.VSTestBridge",
+          "version": "2.0.2.0",
+          "file_version": "2.0.225.56104"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net9.0/Microsoft.Testing.Extensions.VSTestBridge.dll",
+          "name": "Microsoft.Testing.Extensions.VSTestBridge",
+          "version": "2.0.2.0",
+          "file_version": "2.0.225.56104"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Testing.Platform": {
+      "version": "2.0.2",
+      "sha512": "Gao/DE+vd076HzkwQiN0oo1WFRf0v6HVEtlbpoAKMiZJEFv8UjtYQzKpechvVOP1tChYV+q4Ia2DAuPOJpn96w==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net9.0/Microsoft.Testing.Platform.dll",
+          "name": "Microsoft.Testing.Platform",
+          "version": "2.0.2.0",
+          "file_version": "2.0.225.56104"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net9.0/Microsoft.Testing.Platform.dll",
+          "name": "Microsoft.Testing.Platform",
+          "version": "2.0.2.0",
+          "file_version": "2.0.225.56104"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.Testing.Platform.MSBuild": {
+      "version": "2.0.2",
+      "sha512": "WoVIZ95LLQze4hqwnTyDj/lEfUu3PwfdYs6KFcdgF6GCm8IMiRDGpbE1R/pQg5AyWLI5+Yx1ZquhJmn1KyajQw==",
+      "dependencies": [
+        "Microsoft.Testing.Platform"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net9.0/Microsoft.Testing.Extensions.MSBuild.dll",
+          "name": "Microsoft.Testing.Extensions.MSBuild",
+          "version": "2.0.2.0",
+          "file_version": "2.0.225.56104"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net9.0/Microsoft.Testing.Extensions.MSBuild.dll",
+          "name": "Microsoft.Testing.Extensions.MSBuild",
+          "version": "2.0.2.0",
+          "file_version": "2.0.225.56104"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.TestPlatform.AdapterUtilities": {
+      "version": "18.0.1",
+      "sha512": "VwwjosubVuH9WOSwbdemtbcqeKpzihLEPG0n8EPWiGQ4TVasJQ3PST/QLqYKfLHaqRUMn7WF3d6l381FRnF0OQ==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net9.0/Microsoft.TestPlatform.AdapterUtilities.dll",
+          "name": "Microsoft.TestPlatform.AdapterUtilities",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net9.0/Microsoft.TestPlatform.AdapterUtilities.dll",
+          "name": "Microsoft.TestPlatform.AdapterUtilities",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.TestPlatform.ObjectModel": {
+      "version": "18.0.1",
+      "sha512": "qZKcsS5mN7GMwtpd+tRfAt4Dmg8yVbtWkm9iGfqY2GNOG2qW95NH6zf/FrTLXTiS7rB7zqihWGEcSspOaSK8TQ==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net8.0/Microsoft.TestPlatform.CoreUtilities.dll",
+          "name": "Microsoft.TestPlatform.CoreUtilities",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.TestPlatform.PlatformAbstractions.dll",
+          "name": "Microsoft.TestPlatform.PlatformAbstractions",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll",
+          "name": "Microsoft.VisualStudio.TestPlatform.ObjectModel",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net8.0/Microsoft.TestPlatform.CoreUtilities.dll",
+          "name": "Microsoft.TestPlatform.CoreUtilities",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.TestPlatform.PlatformAbstractions.dll",
+          "name": "Microsoft.TestPlatform.PlatformAbstractions",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll",
+          "name": "Microsoft.VisualStudio.TestPlatform.ObjectModel",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Microsoft.TestPlatform.TestHost": {
+      "version": "18.0.1",
+      "sha512": "SX1FnYA8zcNv/lbWK3GjLnAx93jalmyHyQMVi+TNWA61R6xzkLMNpC3fotbfpDheXCFhwy/1rKoULyaOOe0jEg==",
+      "dependencies": [
+        "Microsoft.TestPlatform.ObjectModel",
+        "Newtonsoft.Json"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net8.0/Microsoft.TestPlatform.CommunicationUtilities.dll",
+          "name": "Microsoft.TestPlatform.CommunicationUtilities",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.TestPlatform.CoreUtilities.dll",
+          "name": "Microsoft.TestPlatform.CoreUtilities",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.TestPlatform.CrossPlatEngine.dll",
+          "name": "Microsoft.TestPlatform.CrossPlatEngine",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.TestPlatform.PlatformAbstractions.dll",
+          "name": "Microsoft.TestPlatform.PlatformAbstractions",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.TestPlatform.Utilities.dll",
+          "name": "Microsoft.TestPlatform.Utilities",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.VisualStudio.TestPlatform.Common.dll",
+          "name": "Microsoft.VisualStudio.TestPlatform.Common",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll",
+          "name": "Microsoft.VisualStudio.TestPlatform.ObjectModel",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        },
+        {
+          "path": "lib/net8.0/testhost.dll",
+          "name": "testhost",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net8.0/Microsoft.TestPlatform.CommunicationUtilities.dll",
+          "name": "Microsoft.TestPlatform.CommunicationUtilities",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.TestPlatform.CoreUtilities.dll",
+          "name": "Microsoft.TestPlatform.CoreUtilities",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.TestPlatform.CrossPlatEngine.dll",
+          "name": "Microsoft.TestPlatform.CrossPlatEngine",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.TestPlatform.PlatformAbstractions.dll",
+          "name": "Microsoft.TestPlatform.PlatformAbstractions",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.TestPlatform.Utilities.dll",
+          "name": "Microsoft.TestPlatform.Utilities",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.VisualStudio.TestPlatform.Common.dll",
+          "name": "Microsoft.VisualStudio.TestPlatform.Common",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        },
+        {
+          "path": "lib/net8.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll",
+          "name": "Microsoft.VisualStudio.TestPlatform.ObjectModel",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        },
+        {
+          "path": "lib/net8.0/testhost.dll",
+          "name": "testhost",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "MSTest": {
+      "version": "4.0.2",
+      "sha512": "ItgSjQG9+VjZ9sqMoA3+Q51wwsdDAvcWNse2r19FjneMITWF21+dYgT9Teu8H6kgKl8xqV8Scu5VX11G2jWqqw==",
+      "dependencies": [
+        "Microsoft.NET.Test.Sdk",
+        "Microsoft.Testing.Extensions.CodeCoverage",
+        "Microsoft.Testing.Extensions.TrxReport",
+        "MSTest.TestAdapter",
+        "MSTest.TestFramework"
+      ],
+      "frameworks": [],
+      "compile": [],
+      "runtime": [],
+      "analyzers": [],
+      "build": []
+    },
+    "MSTest.Analyzers": {
+      "version": "4.0.2",
+      "sha512": "NJ+wvKinTbkBcz1FhBuZpDva+hYMAFcwkMQcBtTcbgxg7SgBmbwPOpsFREVWb6ytihleGt0iEOBU9Fkd3zQPRA==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [],
+      "runtime": [],
+      "analyzers": [
+        {
+          "path": "analyzers/dotnet/cs/MSTest.Analyzers.CodeFixes.dll",
+          "name": "MSTest.Analyzers.CodeFixes",
+          "version": "4.0.2.0",
+          "file_version": "4.0.225.56104"
+        },
+        {
+          "path": "analyzers/dotnet/cs/MSTest.Analyzers.dll",
+          "name": "MSTest.Analyzers",
+          "version": "4.0.2.0",
+          "file_version": "4.0.225.56104"
+        }
+      ],
+      "build": []
+    },
+    "MSTest.TestAdapter": {
+      "version": "4.0.2",
+      "sha512": "glB0ABmZ58CZm05DIUmO69JyS07emuALkjnjjMwmsbp184RsJZAr0X+HSff6D1zFZY5AMPsC7JH8UUPAJ8R/Wg==",
+      "dependencies": [
+        "Microsoft.Testing.Extensions.VSTestBridge",
+        "Microsoft.Testing.Platform.MSBuild",
+        "MSTest.TestFramework"
+      ],
+      "frameworks": [],
+      "compile": [],
+      "runtime": [],
+      "analyzers": [],
+      "build": [
+        {
+          "path": "buildTransitive/net9.0/MSTest.TestAdapter.dll",
+          "name": "MSTest.TestAdapter",
+          "version": "4.0.2.0",
+          "file_version": "4.0.225.56104"
+        },
+        {
+          "path": "buildTransitive/net9.0/MSTestAdapter.PlatformServices.dll",
+          "name": "MSTestAdapter.PlatformServices",
+          "version": "4.0.2.0",
+          "file_version": "4.0.225.56104"
+        },
+        {
+          "path": "buildTransitive/net9.0/Microsoft.TestPlatform.AdapterUtilities.dll",
+          "name": "Microsoft.TestPlatform.AdapterUtilities",
+          "version": "15.0.0.0",
+          "file_version": "18.0.125.55701"
+        }
+      ]
+    },
+    "MSTest.TestFramework": {
+      "version": "4.0.2",
+      "sha512": "oJYKne3f3BKdklbbj6czPu1R9Heo444xxlG1nFEIxAt9C96jiPFRuuNVy9bw62eYmYXNugcxgjADkCDZzQM/BQ==",
+      "dependencies": [
+        "MSTest.Analyzers"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net9.0/MSTest.TestFramework.dll",
+          "name": "MSTest.TestFramework",
+          "version": "4.0.2.0",
+          "file_version": "4.0.225.56104"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net9.0/MSTest.TestFramework.dll",
+          "name": "MSTest.TestFramework",
+          "version": "4.0.2.0",
+          "file_version": "4.0.225.56104"
+        }
+      ],
+      "analyzers": [],
+      "build": [
+        {
+          "path": "buildTransitive/net9.0/MSTest.TestFramework.Extensions.dll",
+          "name": "MSTest.TestFramework.Extensions",
+          "version": "4.0.2.0",
+          "file_version": "4.0.225.56104"
+        }
+      ]
+    },
+    "Newtonsoft.Json": {
+      "version": "13.0.3",
+      "sha512": "mbJSvHfRxfX3tR/U6n1WU+mWHXswYc+SB/hkOpx8yZZe68hNZGfymJu0cjsaJEkVzCMqePiU6LdIyogqfIn7kg==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net6.0/Newtonsoft.Json.dll",
+          "name": "Newtonsoft.Json",
+          "version": "13.0.0.0",
+          "file_version": "13.0.3.27908"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net6.0/Newtonsoft.Json.dll",
+          "name": "Newtonsoft.Json",
+          "version": "13.0.0.0",
+          "file_version": "13.0.3.27908"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Npgsql": {
+      "version": "10.0.3",
+      "sha512": "9wZYlR6r1uLGnAxBuUPOCmgbS6SDtVKyGkZ0tDGPaBHYbbdEDEajD0VErq+W/dn3gHfJ3WvOdZaNNNybnFCupA==",
+      "dependencies": [
+        "Microsoft.Extensions.Logging.Abstractions"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Npgsql.dll",
+          "name": "Npgsql",
+          "version": "10.0.3.0",
+          "file_version": "10.0.3.0"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Npgsql.dll",
+          "name": "Npgsql",
+          "version": "10.0.3.0",
+          "file_version": "10.0.3.0"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL": {
+      "version": "10.0.3",
+      "sha512": "poE53ztvi2MB9KUCNIxI0aRu34DOBQwm5YKuCWVAL8NUnXe/A0jiFsOTp1fR950TBSakM7WRWQnvC+u4Qxl3vQ==",
+      "dependencies": [
+        "Microsoft.EntityFrameworkCore",
+        "Microsoft.EntityFrameworkCore.Relational",
+        "Npgsql"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
+          "name": "Npgsql.EntityFrameworkCore.PostgreSQL",
+          "version": "10.0.3.0",
+          "file_version": "10.0.3.0"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
+          "name": "Npgsql.EntityFrameworkCore.PostgreSQL",
+          "version": "10.0.3.0",
+          "file_version": "10.0.3.0"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "NSubstitute": {
+      "version": "5.3.0",
+      "sha512": "S9ecZ/SOhP5EYxs6X14x4isk/4Oskv0OfdauMZ2JsnJCQClvDK6qkqBeYBJCbWJprmUMsl+VpstugUIlgZiIoA==",
+      "dependencies": [
+        "Castle.Core"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net6.0/NSubstitute.dll",
+          "name": "NSubstitute",
+          "version": "5.3.0.0",
+          "file_version": "5.3.0.0"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net6.0/NSubstitute.dll",
+          "name": "NSubstitute",
+          "version": "5.3.0.0",
+          "file_version": "5.3.0.0"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "NSubstitute.Analyzers.CSharp": {
+      "version": "1.0.17",
+      "sha512": "mDAoUn8aUn1FBEf3ilsGDj8HEY//c4I0mDUsc70fAEKvhPi6sSVnykF9M09/5GPSFDPbGC8ddNm6bE68QhQvpQ==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [],
+      "runtime": [],
+      "analyzers": [
+        {
+          "path": "analyzers/dotnet/cs/NSubstitute.Analyzers.CSharp.dll",
+          "name": "NSubstitute.Analyzers.CSharp",
+          "version": "1.0.17.0",
+          "file_version": "1.0.17.0"
+        },
+        {
+          "path": "analyzers/dotnet/cs/NSubstitute.Analyzers.Shared.dll",
+          "name": "NSubstitute.Analyzers.Shared",
+          "version": "1.0.17.0",
+          "file_version": "1.0.17.0"
+        }
+      ],
+      "build": []
+    },
+    "OpenTelemetry": {
+      "version": "1.19.1",
+      "sha512": "/OcvoJcS7ebn5w+JHB5URXIEdMEufDuyEM346/qWFRWsD+S9pAGQOHRpLkx13/YOXdj2o8Ek37RTVIHKmxtLnw==",
+      "dependencies": [
+        "Microsoft.Extensions.Configuration.EnvironmentVariables",
+        "Microsoft.Extensions.Diagnostics.Abstractions",
+        "Microsoft.Extensions.Logging.Configuration",
+        "OpenTelemetry.Api.ProviderBuilderExtensions"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/OpenTelemetry.dll",
+          "name": "OpenTelemetry",
+          "version": "1.0.0.0",
+          "file_version": "1.19.1.2198"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/OpenTelemetry.dll",
+          "name": "OpenTelemetry",
+          "version": "1.0.0.0",
+          "file_version": "1.19.1.2198"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "OpenTelemetry.Api": {
+      "version": "1.19.1",
+      "sha512": "lzh+LTiwTPU+rjBJ5QIwskdSsC5a60h2dxDmtLIsquz/+6atFDEW8ZqIublALlXWrMPV52T1S7SEX1iBI04rHQ==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/OpenTelemetry.Api.dll",
+          "name": "OpenTelemetry.Api",
+          "version": "1.0.0.0",
+          "file_version": "1.19.1.2198"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/OpenTelemetry.Api.dll",
+          "name": "OpenTelemetry.Api",
+          "version": "1.0.0.0",
+          "file_version": "1.19.1.2198"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "OpenTelemetry.Api.ProviderBuilderExtensions": {
+      "version": "1.19.1",
+      "sha512": "IJZqLYSMv65REhZwTcw9ir/PC4bLClt2UDWJ7s36YtnQSn2CGbnRZyNfEYkw9u0ncWjTGgaDe0zkBHFpHb8Y6w==",
+      "dependencies": [
+        "Microsoft.Extensions.DependencyInjection.Abstractions",
+        "OpenTelemetry.Api"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll",
+          "name": "OpenTelemetry.Api.ProviderBuilderExtensions",
+          "version": "1.0.0.0",
+          "file_version": "1.19.1.2198"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll",
+          "name": "OpenTelemetry.Api.ProviderBuilderExtensions",
+          "version": "1.0.0.0",
+          "file_version": "1.19.1.2198"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
+      "version": "1.19.1",
+      "sha512": "0rFaapR8OBnfeXtBEIsRQe+AZ4gouJ0S8DbacoGZUbGO39ZLsxf+k83TvzHQ+o7/wI5xLKfARM0lqy+CGh/YIw==",
+      "dependencies": [
+        "OpenTelemetry"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/OpenTelemetry.Exporter.OpenTelemetryProtocol.dll",
+          "name": "OpenTelemetry.Exporter.OpenTelemetryProtocol",
+          "version": "1.0.0.0",
+          "file_version": "1.19.1.2198"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/OpenTelemetry.Exporter.OpenTelemetryProtocol.dll",
+          "name": "OpenTelemetry.Exporter.OpenTelemetryProtocol",
+          "version": "1.0.0.0",
+          "file_version": "1.19.1.2198"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "OpenTelemetry.Extensions.Hosting": {
+      "version": "1.19.1",
+      "sha512": "rqxRlqp5tXVOZZ6GaaWCDGzkH/ct90szRcPo/Yay3LURjo/c92U4jD03ab7vbfwImbft+v9BFT0wnCPFYNJ6Qg==",
+      "dependencies": [
+        "Microsoft.Extensions.Hosting.Abstractions",
+        "OpenTelemetry"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/OpenTelemetry.Extensions.Hosting.dll",
+          "name": "OpenTelemetry.Extensions.Hosting",
+          "version": "1.0.0.0",
+          "file_version": "1.19.1.2198"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/OpenTelemetry.Extensions.Hosting.dll",
+          "name": "OpenTelemetry.Extensions.Hosting",
+          "version": "1.0.0.0",
+          "file_version": "1.19.1.2198"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "OpenTelemetry.Instrumentation.AspNetCore": {
+      "version": "1.19.0",
+      "sha512": "aaGqF7cTsK+zNiLdjhk0Q1A7I/fw8qhWqc8IeuvjB+T9momsY8JPtwI60zfotEu1oLXczxT1pPKj+ISryNtHag==",
+      "dependencies": [
+        "OpenTelemetry.Api.ProviderBuilderExtensions"
+      ],
+      "frameworks": [
+        "Microsoft.AspNetCore.App"
+      ],
+      "compile": [
+        {
+          "path": "lib/net10.0/OpenTelemetry.Instrumentation.AspNetCore.dll",
+          "name": "OpenTelemetry.Instrumentation.AspNetCore",
+          "version": "1.19.0.1364",
+          "file_version": "1.19.0.1364"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/OpenTelemetry.Instrumentation.AspNetCore.dll",
+          "name": "OpenTelemetry.Instrumentation.AspNetCore",
+          "version": "1.19.0.1364",
+          "file_version": "1.19.0.1364"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "OpenTelemetry.Instrumentation.GrpcNetClient": {
+      "version": "1.15.0-beta.1",
+      "sha512": "PTTnMalxgxNi1GytiFqfRAnl5Y1as/2Osyefb4Ph3Ot4FHwDn4RIrCDeSFrX2e5O8XflFEOTOb5JeVM8zxgCuQ==",
+      "dependencies": [
+        "OpenTelemetry"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/OpenTelemetry.Instrumentation.GrpcNetClient.dll",
+          "name": "OpenTelemetry.Instrumentation.GrpcNetClient",
+          "version": "1.15.0.896",
+          "file_version": "1.15.0.896"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/OpenTelemetry.Instrumentation.GrpcNetClient.dll",
+          "name": "OpenTelemetry.Instrumentation.GrpcNetClient",
+          "version": "1.15.0.896",
+          "file_version": "1.15.0.896"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "OpenTelemetry.Instrumentation.Http": {
+      "version": "1.19.0",
+      "sha512": "xPBA3zn0hD7P40ngzJRvVBMQJwFxmB0cC7ObGi2XV92RwxmFEBwSZ8pgrQDzQsoSMPzqf+vHgaCvONJfSV92ZA==",
+      "dependencies": [
+        "Microsoft.Extensions.Configuration",
+        "Microsoft.Extensions.Options",
+        "OpenTelemetry.Api.ProviderBuilderExtensions"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/OpenTelemetry.Instrumentation.Http.dll",
+          "name": "OpenTelemetry.Instrumentation.Http",
+          "version": "1.19.0.1372",
+          "file_version": "1.19.0.1372"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/OpenTelemetry.Instrumentation.Http.dll",
+          "name": "OpenTelemetry.Instrumentation.Http",
+          "version": "1.19.0.1372",
+          "file_version": "1.19.0.1372"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "OpenTelemetry.Instrumentation.Runtime": {
+      "version": "1.19.0",
+      "sha512": "iDYdWYXlsqTA5iUji1WcntiqliXjMt/9lKsCuDvhk1RwzLXgEbb42uyNqZvzhhyMeRWDhqo/+kjmz8/ZDIyYsg==",
+      "dependencies": [
+        "OpenTelemetry.Api"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/OpenTelemetry.Instrumentation.Runtime.dll",
+          "name": "OpenTelemetry.Instrumentation.Runtime",
+          "version": "1.19.0.1379",
+          "file_version": "1.19.0.1379"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/OpenTelemetry.Instrumentation.Runtime.dll",
+          "name": "OpenTelemetry.Instrumentation.Runtime",
+          "version": "1.19.0.1379",
+          "file_version": "1.19.0.1379"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Polly.Core": {
+      "version": "8.7.0",
+      "sha512": "3GWahyTlj/qJHsUSW6IkkVhNJurnjEPPiRrZAIf74rmM2/Afncb6oqWi4XS8USoMhYoQ60WB+Es4KWBRXgjkNQ==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net8.0/Polly.Core.dll",
+          "name": "Polly.Core",
+          "version": "8.0.0.0",
+          "file_version": "8.7.0.5801"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net8.0/Polly.Core.dll",
+          "name": "Polly.Core",
+          "version": "8.0.0.0",
+          "file_version": "8.7.0.5801"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Polly.Extensions": {
+      "version": "8.4.2",
+      "sha512": "BG6kei2BTU0veYirm84tRCI8FEq24Zo9JexWdzU+oFyYKUQPkXyKCfyygwgTOz4KXzxeHTPe1HvOGhuQQmOaQQ==",
+      "dependencies": [
+        "Microsoft.Extensions.Logging.Abstractions",
+        "Microsoft.Extensions.Options",
+        "Polly.Core"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net8.0/Polly.Extensions.dll",
+          "name": "Polly.Extensions",
+          "version": "8.0.0.0",
+          "file_version": "8.4.2.3950"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net8.0/Polly.Extensions.dll",
+          "name": "Polly.Extensions",
+          "version": "8.0.0.0",
+          "file_version": "8.4.2.3950"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Polly.RateLimiting": {
+      "version": "8.4.2",
+      "sha512": "6AMnfwK1I25jb3JMpkcHkfWElHA4S1+mCNmQgXVTJZX+AySxasV3v8xCwEeVHSZalAM6Ywv0RM50o38rLa0Cig==",
+      "dependencies": [
+        "Polly.Core",
+        "System.Threading.RateLimiting"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net8.0/Polly.RateLimiting.dll",
+          "name": "Polly.RateLimiting",
+          "version": "8.0.0.0",
+          "file_version": "8.4.2.3950"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net8.0/Polly.RateLimiting.dll",
+          "name": "Polly.RateLimiting",
+          "version": "8.0.0.0",
+          "file_version": "8.4.2.3950"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "RabbitMQ.Client": {
+      "version": "7.2.2",
+      "sha512": "9g7Og2u7YunA7jeCSYdTNuPwqUJ3EQVPpdb34VrNFQDUh/Qw8KV5MM6g8KQbhAIYDb7pYRt7DcuRud73/keEcg==",
+      "dependencies": [
+        "System.Threading.RateLimiting"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net8.0/RabbitMQ.Client.dll",
+          "name": "RabbitMQ.Client",
+          "version": "7.0.0.0",
+          "file_version": "7.2.2.0"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net8.0/RabbitMQ.Client.dll",
+          "name": "RabbitMQ.Client",
+          "version": "7.0.0.0",
+          "file_version": "7.2.2.0"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "Scalar.AspNetCore": {
+      "version": "2.17.10",
+      "sha512": "7IEV6q5j27mmRLsW/0sYwFdcJLglmRrWe9XIJhynQImCPortLOTBxrNj15leVDvj+zWLEJSw/mytOU9maUdxuA==",
+      "dependencies": [],
+      "frameworks": [
+        "Microsoft.AspNetCore.App"
+      ],
+      "compile": [
+        {
+          "path": "lib/net10.0/Scalar.AspNetCore.dll",
+          "name": "Scalar.AspNetCore",
+          "version": "2.17.10.0",
+          "file_version": "2.17.10.0"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/Scalar.AspNetCore.dll",
+          "name": "Scalar.AspNetCore",
+          "version": "2.17.10.0",
+          "file_version": "2.17.10.0"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "System.Diagnostics.EventLog": {
+      "version": "6.0.0",
+      "sha512": "QBA9W3yytBx8r8pinBEsVSa7dz0RNnymKRjYhk+6jawrSBUfN2cbz1BJnY+LJoSJ7hyt4vuJR8wG4gWh+sZ4TA==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net6.0/System.Diagnostics.EventLog.dll",
+          "name": "System.Diagnostics.EventLog",
+          "version": "6.0.0.0",
+          "file_version": "6.0.21.52210"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net6.0/System.Diagnostics.EventLog.dll",
+          "name": "System.Diagnostics.EventLog",
+          "version": "6.0.0.0",
+          "file_version": "6.0.21.52210"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "System.IdentityModel.Tokens.Jwt": {
+      "version": "8.19.2",
+      "sha512": "DXewKSmxxRBuvUOd2aG/TAZafCVR6VcqLD0AJAG74wwoDLqukwTPGa0I2SOItZdhXuz43Mfiog1BSpHAC8SVkg==",
+      "dependencies": [
+        "Microsoft.IdentityModel.JsonWebTokens",
+        "Microsoft.IdentityModel.Tokens"
+      ],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net10.0/System.IdentityModel.Tokens.Jwt.dll",
+          "name": "System.IdentityModel.Tokens.Jwt",
+          "version": "8.19.2.0",
+          "file_version": "8.19.2.26195"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net10.0/System.IdentityModel.Tokens.Jwt.dll",
+          "name": "System.IdentityModel.Tokens.Jwt",
+          "version": "8.19.2.0",
+          "file_version": "8.19.2.26195"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    },
+    "System.Reflection.TypeExtensions": {
+      "version": "4.7.0",
+      "sha512": "Q/fczHO357fqTntQPZBSwhstHCcZFvgqOwBnkO+lhMyS2pYBDtXyfRQblK3SYXN8GXHOEJzjNM5Tr12zp73c6A==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [],
+      "runtime": [],
+      "analyzers": [],
+      "build": []
+    },
+    "System.Threading.RateLimiting": {
+      "version": "8.0.0",
+      "sha512": "ixhwz8JQm1n+6qf8WzbMMfhBAT51Kq0U/71YGhR2bGyDnDERdGbmQF6A8HDwpkp+ntVie832Yiz9xmPs63OPKA==",
+      "dependencies": [],
+      "frameworks": [],
+      "compile": [
+        {
+          "path": "lib/net8.0/System.Threading.RateLimiting.dll",
+          "name": "System.Threading.RateLimiting",
+          "version": "8.0.0.0",
+          "file_version": "8.0.23.53103"
+        }
+      ],
+      "runtime": [
+        {
+          "path": "lib/net8.0/System.Threading.RateLimiting.dll",
+          "name": "System.Threading.RateLimiting",
+          "version": "8.0.0.0",
+          "file_version": "8.0.23.53103"
+        }
+      ],
+      "analyzers": [],
+      "build": []
+    }
+  }
+}
