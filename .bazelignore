@@ -1,0 +1,10 @@
+# MSBuild output (UseArtifactsOutput), npm packages and the local package feed.
+artifacts
+node_modules
+.bazel-packages
+# Convenience links: another OS's Bazel may have created them (WSL sees
+# Windows junctions as plain directories).
+bazel-bin
+bazel-eshop
+bazel-out
+bazel-testlogs
