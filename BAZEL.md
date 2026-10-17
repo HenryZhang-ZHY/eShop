@@ -1,6 +1,6 @@
 # Building eShop with Bazel
 
-This branch builds eShop's class libraries with [Bazel](https://bazel.build) through [bazel.net](../bazel.net), and leaves the application projects to the .NET SDK. The goal is faster builds and CI for large monorepos, not a replacement for MSBuild: Bazel owns the code that makes up most of a large monorepo, the shared class libraries, and the SDK keeps everything it does well for applications.
+This branch builds eShop's class libraries with [Bazel](https://bazel.build) through [rules_csharp](../slash/rules_csharp), and leaves the application projects to the .NET SDK. The goal is faster builds and CI for large monorepos, not a replacement for MSBuild: Bazel owns the code that makes up most of a large monorepo, the shared class libraries, and the SDK keeps everything it does well for applications.
 
 ## Who builds what
 
@@ -76,8 +76,8 @@ The workspace versions are content hashes, so the generated props file is an exa
 
 ## Known gaps
 
-- **IDE support for Bazel-owned libraries.** The six libraries no longer have `.csproj` files, so Visual Studio, Rider and the Roslyn language server don't load them. Host projects still work, and they see the libraries as packages. Generating project information for Roslyn from the Bazel graph is an open bazel.net problem.
-- **AOT/trim analyzers.** `IsAotCompatible` pulls in ILLink analyzers through an SDK-implicit package. bazel.net doesn't add them yet, so Bazel builds of EventBus/EventBusRabbitMQ skip those warnings.
+- **IDE support for Bazel-owned libraries.** The six libraries no longer have `.csproj` files, so Visual Studio, Rider and the Roslyn language server don't load them. Host projects still work, and they see the libraries as packages. Generating project information for Roslyn from the Bazel graph is an open rules_csharp problem.
+- **AOT/trim analyzers.** `IsAotCompatible` pulls in ILLink analyzers through an SDK-implicit package. rules_csharp doesn't add them yet, so Bazel builds of EventBus/EventBusRabbitMQ skip those warnings.
 - **Debug symbols.** Libraries ship portable PDBs next to the DLL instead of `DebugType=embedded`.
 - **Not migrated:** functional tests (they start hosts through Aspire and need Docker), `WebAppComponents` (a Razor class library, which needs the Razor SDK), and host-side unit tests that reference host projects.
-- **bazel.net is unpublished.** `MODULE.bazel` points at a sibling checkout through `local_path_override`. CI needs that checkout, or a published module.
+- **rules_csharp is unpublished.** `MODULE.bazel` points at a sibling checkout through `local_path_override`. CI needs that checkout, or a published module.

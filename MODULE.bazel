@@ -1,14 +1,14 @@
 module(name = "eshop")
 
-bazel_dep(name = "bazel_net")
+bazel_dep(name = "rules_csharp")
 local_path_override(
-    module_name = "bazel_net",
-    path = "../bazel.net",
+    module_name = "rules_csharp",
+    path = "../slash/rules_csharp",
 )
 
 # Third-party packages for Bazel-built code. Versions come from the same
 # Directory.Packages.props the host projects use; `bazel run //:nuget_lock`
 # rewrites the lock file.
-nuget = use_extension("@bazel_net//dotnet:extensions.bzl", "nuget")
+nuget = use_extension("@rules_csharp//dotnet:extensions.bzl", "nuget")
 nuget.from_lock(lock = "//:nuget.lock.json")
 use_repo(nuget, "nuget")

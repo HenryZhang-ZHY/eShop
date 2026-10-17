@@ -1,4 +1,4 @@
-load("@bazel_net//dotnet:defs.bzl", "nuget_lock", "workspace_packages")
+load("@rules_csharp//dotnet:defs.bzl", "nuget_lock", "workspace_packages")
 
 exports_files([".editorconfig"])
 

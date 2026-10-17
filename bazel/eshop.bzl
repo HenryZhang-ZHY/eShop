@@ -1,6 +1,6 @@
 """eShop's build conventions: the Bazel counterpart of Directory.Build.props."""
 
-load("@bazel_net//dotnet:defs.bzl", "csharp_library", "mstest_test")
+load("@rules_csharp//dotnet:defs.bzl", "csharp_library", "mstest_test")
 
 _COMMON = {
     "editorconfigs": ["//:.editorconfig"],
